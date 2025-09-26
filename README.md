@@ -17,29 +17,6 @@ This project demonstrates how to build a **Security Information and Event Manage
 
 ---
 
-## 📂 Project Structure
-
-
-SIEM-ELK-Project/
-│
-├── docker-compose.yml        # Orchestrates ELK stack, Filebeat, ElastAlert
-├── log_generator.py          # Python script to simulate logs
-│
-├── filebeat/
-│   └── filebeat.yml          # Filebeat configuration
-│
-├── logstash/
-│   └── pipeline/
-│       └── logstash.conf     # Grok parsing rules for logs
-│
-├── elastalert/
-│   ├── config.yaml           # ElastAlert2 main config
-│   └── rules/
-│       └── ssh_rule.yaml     # Example alert rule
-│
-└── README.md
-
-
 ## 🚀 Setup Instructions
 ### 1. Clone the Repository
 
